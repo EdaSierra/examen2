@@ -1,0 +1,113 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+#hero-slides h2 {
+	text-align: left;
+	font-size: 30px;
+}
+
+#hero-slides h1 {
+	text-align: left;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#hero-slides h3 {
+	text-align: left;
+	font-size: 30px;
+}
+
+#intro {
+	padding: 30px;
+	color: white;
+}
+
+#intro .intro-column {
+	margin: 20px;
+	padding: 10px;
+	background-color: #282d33;
+}
+
+#intro h4 {
+	font-size: 10px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#intro h3 {
+	font-size: 30px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#intro p {
+	font-size: 8px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#products {
+	color: white;
+}
+
+#products h4 {
+	font-size: 14px;
+}
+
+#products h3 {
+	text-align: center;
+	padding: 20px;
+}
+
+#products p {
+	font-size: 20px;
+	color: #ec3642;
+}
+
+#products .card {
+	border-color: #161616;
+	background-color: #161616;
+	padding: 30px;
+}
+
+.btn-start-1 {
+	background-color: white;
+}
+
+.btn-start-1-2 {
+	background-color: white;
+	align-content: center;
+}
+
+#cta {
+	background-image: url("../img/bg-parallax.png");
+	padding: 80px;
+	color: white;
+	
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
